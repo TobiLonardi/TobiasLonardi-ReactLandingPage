@@ -7,6 +7,8 @@ import Header from "./Header";
 
 import Jumbotron from "./Jumbotron"
 
+import Cards from "./Card"
+
 //create your first component
 const Home = () => {
 	return (
@@ -14,7 +16,6 @@ const Home = () => {
 			<Header />
 			<div className="container">
 				<Jumbotron/>
-
 			</div>
 
 		</div>
