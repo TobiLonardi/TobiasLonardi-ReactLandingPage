@@ -9,6 +9,8 @@ import Jumbotron from "./Jumbotron"
 
 import Cards from "./Cards"
 
+import Footer from "./Footer"
+
 //create your first component
 const card = [
 	{
@@ -35,23 +37,23 @@ const card = [
 
 const Home = () => {
 	return (
-		<div>
+		<>
 			<Header />
 			<div className="container">
 				<Jumbotron />
 				<div className="row">
 					{
 						card.map((item,key)=>(
-							<div key={key}>
-							<Cards cards = {item} />
-							</div>
+							<Cards
+								key = {key}
+							 	cards = {item} />
 						))
 					}
 				</div>
 
 			</div>
-
-		</div>
+			<Footer/>
+		</>
 
 	);
 };

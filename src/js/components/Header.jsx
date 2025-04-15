@@ -2,11 +2,11 @@ import React from "react";
 
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg">
-            <div className="container-fluid bg-dark" >
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div className="container-fluid" >
                 <a className="navbar-brand text-light" href="#">Navbar</a>
                 <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon bg-dark-subtle"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="d-lg-flex justify-content-end collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
