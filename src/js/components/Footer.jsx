@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="container-fluid bg-dark">
             <div className="row">
                 <div className="col-12 text-center p-3 text-white">
-                    2 days ago
+                    Copyright © your website 2018
 
                 </div>
             </div>
