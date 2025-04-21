@@ -30,7 +30,7 @@ const card = [
 	},
 	{
 		image: "https://picsum.photos/id/10/200/150",
-		title: "Tercer titulo",
+		title: "Cuarto titulo",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mauris nec nulla fermentum posuere."
 	}
 ]
