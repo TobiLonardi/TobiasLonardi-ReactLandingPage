@@ -26,12 +26,12 @@ const card = [
 	{
 		image: "https://picsum.photos/id/10/200/150",
 		title: "Tercer titulo",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla, odio ut blandit finibus"
+		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mauris nec nulla fermentum posuere."
 	},
 	{
 		image: "https://picsum.photos/id/10/200/150",
 		title: "Tercer titulo",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus."
+		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mauris nec nulla fermentum posuere."
 	}
 ]
 
